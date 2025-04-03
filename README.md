@@ -1,21 +1,55 @@
-Hello there Hecker...Hacker ? What should I call you ?
-Let's call you Paul !!
+WiFi Brute-Force Attack Tool (AI-Enhanced) 🚀
+Hello there, Hecker...Hacker? 🤔
+What should I call you?
+Let's call you Paul!!
 
-Now listen Paul !!
-I have created the above project where we have a Desktop Application which the User can use for Brute-Force Attack on their choice of Wifi Network.
+Now listen, Paul! 😏
+I've upgraded this WiFi Security Testing Tool with AI-powered password generation to make it even more effective in ethical hacking scenarios.
 
-Basically what happens is that we have a python script which when executed shows a User Interface Window with two Input Boxes :
-1) Enter the Wifi Network Name :
-2) Select the Dictionary :
+🔍 What This Tool Does?
+This Desktop Application helps you brute-force a chosen WiFi network using either:
+✅ AI-generated passwords (via Hugging Face API)
+✅ Manually selected dictionary file (your own passwords list)
 
-In the first one you enter the Wifi Network Name and in the second one you select a .txt file which contains the data or list of the most common passwords or the most used ones.
-When you have clicked the "Start Brute Force Attack" button for the above, the python script will keep trying the passwords that are available in the dictionary which we selected.
+When you run the script, a User Interface (UI) window appears with the following input fields:
 
-For testing the application, I disconnected from my Wifi network and Clicked forget for the Wifi Network and after this I entered the Wifi Name in the application's 1st Input Box and then selected a file named passwords.txt,
-I had already entered the password for my Wifi Network in the passwords.txt file but after 3-4 dummy passwords, so that when I execute the Python Script it will try the first 3-4 passwords in the "passwords.txt" file
-and then when it reaches the original password and tries to connect to my Wifi Network which I specified I am successfully connected to it.
+1️⃣ Enter the WiFi Network Name (SSID)
+2️⃣ Choose a method:
 
-Remember the above application has limitations due to the limited passwords available in the file which contains dictionary of passwords, now in your case it completely depends on the passwords available in the password
-dictionary file. Also one more limitation is that the Bruteforce Attack doesn't guarantee connectivity with the Wifi network specified.
+AI-generated passwords (uses name, birth year & common words to create strong variations)
 
-In your case you could also download the "rockyou.txt" file which contains millions of leaked or common passwords being used all over the world.
+Manually select a dictionary file (.txt) with passwords
+
+Once you click "Start Brute Force Attack", the script will start testing passwords one by one to connect to the selected WiFi network.
+
+💡 New AI Features!
+🔹 AI-powered password generation using Hugging Face API
+🔹 Smart password permutations based on name, birth year & common words
+🔹 Automatic or manual dictionary selection
+🔹 Graphical UI for easy usage
+
+🛠 How I Tested It?
+For testing, I:
+1️⃣ Disconnected from my WiFi and clicked "Forget" on my system.
+2️⃣ Entered the WiFi SSID in the app.
+3️⃣ Selected either AI-generated passwords or a custom dictionary file (e.g., passwords.txt).
+4️⃣ Clicked Start Brute Force Attack 🔥
+
+The script tried passwords one by one, and when it reached the correct one, it successfully connected to my WiFi.
+
+⚠️ Limitations & Ethical Use
+❌ Does NOT guarantee a successful brute-force attack (depends on available passwords).
+❌ Dictionary-based attacks rely on pre-existing password lists.
+❌ AI-generated passwords improve success chances but aren’t foolproof.
+
+⚠️ Use this tool only for ethical security testing on your own WiFi network! 🚨
+
+📂 Recommended Dictionary Files
+Want better results? Try using:
+📌 rockyou.txt – A massive leaked password database with millions of common passwords.
+📌 Your own custom password list based on target-specific keywords.
+
+📸 Screenshots of AI-Enhanced Version
+(Screenshots folder contains the latest implementation images.)
+
+🚀 Ready to test your WiFi security? Let’s go, Paul! 😎

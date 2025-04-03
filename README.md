@@ -20,7 +20,7 @@ AI-generated passwords (uses name, birth year & common words to create strong va
 
 Manually select a dictionary file (.txt) with passwords
 
-Once you click "Start Brute Force Attack", the script will start testing passwords one by one to connect to the selected WiFi network.
+Once you click "Start Security Test", the script will start testing passwords one by one to connect to the selected WiFi network.
 
 💡 New AI Features!
 🔹 AI-powered password generation using Hugging Face API
@@ -33,7 +33,7 @@ For testing, I:
 1️⃣ Disconnected from my WiFi and clicked "Forget" on my system.
 2️⃣ Entered the WiFi SSID in the app.
 3️⃣ Selected either AI-generated passwords or a custom dictionary file (e.g., passwords.txt).
-4️⃣ Clicked Start Brute Force Attack 🔥
+4️⃣ Clicked Start Security Test 🔥
 
 The script tried passwords one by one, and when it reached the correct one, it successfully connected to my WiFi.
 
